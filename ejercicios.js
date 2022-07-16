@@ -181,3 +181,67 @@ else if (jugador == computador )
 else {
     console.log("Perdiste")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// SWITCH
+
+
+/* ================================================================ */ 
+
+// Switch es una forma diferente de validar, está depende del caso que sea verdad. 
+
+var numero = 1; 
+var resultado; 
+
+/* Switch compara con un === por esa razón los elementos tiene que ser idénticos */ 
+
+switch (numero) {
+    case 1: 
+        resultado = "Sí es uno";
+        break;
+    case 10: 
+        resultado = "Sí es diez";
+        break;
+    case 100:
+        resultado = "Sí es cien";
+        break;
+    default:   
+        resultado = "No soy nada"; 
+}
+
+console.log(resultado); 
+
+// Ejercicio, reaizar un piedra, papel o tijeras VERSIÓN 3
+
+<var tijeras = "tijeras";
+var piedra = "piedra";
+var papel = "papel";
+
+function resultadoGanador(user, cpu) {
+    switch (true) {
+        case user === cpu :
+            console.log("Empate")
+        break;
+        case user === "tijeras" && cpu === "papel" :
+            console.log("Ganaste")
+        break;
+        case user === "piedra" && cpu === "tijeras" :
+            console.log("Ganaste")
+        break;
+        case user === "papel" && cpu === "piedra" :
+            console.log("Ganaste")
+        break;
+        default: 
+            console.log("Perdiste")
+    }
+}>
