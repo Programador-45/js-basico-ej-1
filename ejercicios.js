@@ -223,11 +223,9 @@ console.log(resultado);
 
 // Ejercicio, reaizar un piedra, papel o tijeras VERSIÓN 3
 
-<var tijeras = "tijeras";
-var piedra = "piedra";
-var papel = "papel";
+var user = "tijeras";
+var cpu = "piedra";
 
-function resultadoGanador(user, cpu) {
     switch (true) {
         case user === cpu :
             console.log("Empate")
@@ -244,4 +242,3 @@ function resultadoGanador(user, cpu) {
         default: 
             console.log("Perdiste")
     }
-}>
